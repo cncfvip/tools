@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'About - IT Tools' });
+useHead({ title: 'About - 云原生工具CNCF.VIP' });
 </script>
 
 <template>

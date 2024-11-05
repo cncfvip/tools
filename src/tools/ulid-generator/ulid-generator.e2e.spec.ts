@@ -8,7 +8,7 @@ test.describe('Tool - ULID generator', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('ULID generator - IT Tools');
+    await expect(page).toHaveTitle('ULID generator - 云原生工具CNCF.VIP');
   });
 
   test('the refresh button generates a new ulid', async ({ page }) => {

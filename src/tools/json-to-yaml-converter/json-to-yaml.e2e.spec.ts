@@ -6,7 +6,7 @@ test.describe('Tool - json to yaml', () => {
   });
 
   test('Has correct title', async ({ page }) => {
-    await expect(page).toHaveTitle('JSON to YAML converter - IT Tools');
+    await expect(page).toHaveTitle('JSON to YAML converter - 云原生工具CNCF.VIP');
   });
 
   test('json is parsed and output clean yaml', async ({ page }) => {
