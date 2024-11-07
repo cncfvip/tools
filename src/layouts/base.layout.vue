@@ -39,12 +39,9 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            TOOLS
+            云原生工具
           </div>
           <div class="divider" />
-          <div class="subtitle">
-            {{ $t('home.subtitle') }}
-          </div>
         </div>
       </RouterLink>
 
@@ -173,7 +170,7 @@ const tools = computed<ToolCategory[]>(() => [
 }
 
 .sider-content {
-  padding-top: 60px;
+  padding-top: 70px;
   padding-bottom: 200px;
 }
 
